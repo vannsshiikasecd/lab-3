@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/blog_post_form.css">
+</head>
+<body>
+    <section style="background-color: aqua;">
+    <h3><center><em>Blog Submission form......</em></center></h3>
+    <h3>Fill the following details</h3>
+    </section>
+    <section>
+        <div style="font-style: oblique;">
+            Blog Post Title: <input type="text">
+        </div><br>
+        <div style="font-style: oblique;">
+            Author's Name: <input type="text">
+        </div><br>
+        <div style="font-style: oblique;">
+            Blog Category: <select name="Category" id="MYCATEGORY">
+                <option value="Motivation">Motivation</option>
+                <option value="Real world">Real world</option>
+                <option value="Computer Engineering">Computer Engineering</option>
+                <option value="Medical">Medical</option>
+                <option value="media">Media</option>
+              </select>
+        </div><br>
+        <div style="font-style: oblique;">
+            Content: <textarea name="Content" id="MyContent"></textarea>
+        </div><br>
+        
+        
+        <button onclick="myFunction()">Submitt</button>
+
+<script style="background-color: black;">
+function myFunction() {
+  alert("Submitted");
+}
+</script>
+
+       
+
+    </section>
+</body>
+</html>
